@@ -1,0 +1,46 @@
+[package]
+name = "mal"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.5.4"
+lazy_static = "1.4.0"
+
+[[bin]]
+name = "step0_repl"
+path = "src/step0_repl.rs"
+
+[[bin]]
+name = "step1_read_print"
+path = "src/step1_read_print.rs"
+
+[[bin]]
+name = "step2_eval"
+path = "src/step2_eval.rs"
+
+[[bin]]
+name = "step3_env"
+path = "src/step3_env.rs"
+
+[[bin]]
+name = "step4_if_fn_do"
+path = "src/step4_if_fn_do.rs"
+
+[[bin]]
+name = "step5_tco"
+path = "src/step5_tco.rs"
+
+[[bin]]
+name = "step6_file"
+path = "src/step6_file.rs"
+
+[[bin]]
+name = "step7_quote"
+path = "src/step7_quote.rs"
+
+[[bin]]
+name = "step8_macros"
+path = "src/step8_macros.rs"
